@@ -37,11 +37,69 @@ print('welcome')
 # d={'name':'manu'}
 # print(type(d))
 
-age = int(input('Enter age'))
-print('age is :', age)
+# age = int(input('Enter age'))
+# print('age is :', age)
 
-name = str(input('Enter name'))
-print('name :',name)
+# name = str(input('Enter name'))
+# print('name :',name)
 
-weight = float(input('Enter weight'))
-print('weight :',weight)
+# weight = float(input('Enter weight'))
+# print('weight :',weight)
+
+
+#                                                                                    
+
+# print(10==10)
+# print(10!=10)
+# print(10>5)
+# print(10<5)
+# print(10>=10)
+# print(10<=5)
+
+# a=20
+# a+=3
+# print(a)
+
+# a=20
+# a-=3
+# print(a)
+
+# a=20
+# a*=3
+# print(a)
+
+# a=20
+# a/=3
+# print(a)
+
+# a=20
+# a**=3
+# print(a)
+
+# a=20
+# a//=3
+# print(a)
+
+
+# print(10==8 and 10>=8)
+# print(10==8 or 10>=8)
+# print(not(10==8))
+
+# a="welcome"
+# print('e' in a)
+# print('z' not in a)
+
+a=10
+b=10
+print(id(a))
+print(id(b))
+print(a==b)
+print(a is b)
+
+a=[10,20,30,40,50]
+b=[10,20,30,40,50]
+print(id(a))
+print(id(b))
+print(a==b)
+print(a is  not b)
+
