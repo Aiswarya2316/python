@@ -27,7 +27,8 @@
 # 14
 # 91625
 
-for i in range(3):
-    for j in range(i + 1):
-        print(j**2, end=" ")
+
+for i in range(1,4):
+    for j in range(i ):
+        print((i+j) **2, end=" ")
     print()
