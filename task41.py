@@ -51,21 +51,31 @@
 
     #  print sum of natural odd even numbers
 
-a=int(input("Enter the starting value"))
-b=int(input("Enter the ending value"))
-sum=0
-oddsum=0
-evensum=0
-while a<=b:
-    sum+=a
-    if a%2==1:
-     oddsum+=a 
-    else:
-     evensum+=a
-    a+=1 
-print("natural sum:",sum)             
-print("even sum:",evensum)
-print("odd sum:",oddsum)        
+# a=int(input("Enter the starting value"))
+# b=int(input("Enter the ending value"))
+# sum=0
+# oddsum=0
+# evensum=0
+# while a<=b:
+#     sum+=a
+#     if a%2==1:
+#      oddsum+=a 
+#     else:
+#      evensum+=a
+#     a+=1 
+# print("natural sum:",sum)             
+# print("even sum:",evensum)
+# print("odd sum:",oddsum)        
         
 
-    # 
+    # print factorial of a number
+
+i=1
+a=int(input("Enter the value"))
+factorial=1
+
+while i<=a:
+    factorial*=i
+    i+=1
+print(factorial) 
+  
