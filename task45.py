@@ -37,6 +37,15 @@
 # print(L)
 
 
-L=[50,100]
-L.extend([100,200,300])
+# L=[50,100]
+# L.extend([100,200,300])
+# print(L)
+
+
+L=[50,100,[100,200]]
+L.remove([100,200])
+print(L)
+L.pop()
+print(L)
+L.clear()
 print(L)
