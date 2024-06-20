@@ -1,9 +1,13 @@
+       # print multiples of number
+
 a=int(input('enter a value'))
 i=1
 while i<=10:
     print(i,'*',a,'=',a*i)
     i+=1
 
+
+        # print reverse of numbers
 
 a=int(input('enter a number'))
 rev=0
@@ -16,6 +20,8 @@ while a>0:
 print(rev)
 
 
+       # print sum of numbers
+
 a=int(input('enter a number'))
 sum=0
 while a>0:
@@ -25,6 +31,8 @@ while a>0:
 print(sum)
 
 
+       # print welcome
+
 a='welcome'
 l=len(a)
 i=0
@@ -32,6 +40,8 @@ while i<l:
     print(a[i])
     i+=1
 
+
+      # print welcome reverse
 
 a='welcome'
 l=len(a)
@@ -42,6 +52,8 @@ while i<l:
     i+=1
 print(rev)
 
+
+      #  print fabonacia series
 
 a=0
 b=1
