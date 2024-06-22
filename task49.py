@@ -26,7 +26,7 @@ while True:
      del names[a]
      print(names)
 
-    # elif choice==5:
-    #  print("exit:") 
-    #  break     
+    elif choice==5:
+     print("exit:") 
+     break     
     
