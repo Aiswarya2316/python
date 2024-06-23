@@ -22,11 +22,18 @@ while True:
       else:
         print("Name not found")           
 
-    elif choice==4:
-     del names[a]
-     print(names)
+    elif a==4:
+            d=str(input("Enter name needed to be deleted : "))
+            if d in names:
+                names.remove(d)
+                print("Deleted : ",names)
+            else:
+                print("Name not found")
 
-    elif choice==5:
-     print("exit:") 
-     break     
+    elif a==5:
+            print("You had exited")
+            break
+            
+    else:
+        print("INVALID INPUT !")   
     
