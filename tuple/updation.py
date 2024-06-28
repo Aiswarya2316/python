@@ -1,16 +1,9 @@
- # tuple methods
-t=('abc',123,['name',20])
-print(t.index(4))
-print(t.count(4))
-t[2][1]=21
-print(t[2])
-
-
-    #   ad & update
+   #   ad & update
 
 t=1,2,3
 a=list(t) 
 a[2]='a'
+a.append(4)
 t=tuple(a)
 print(t)
 
