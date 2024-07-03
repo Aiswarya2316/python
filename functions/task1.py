@@ -56,8 +56,19 @@
 
 
 
-def add(name,age=21):
-    return name,age
+# def add(name,age=21):
+#     return name,age
 
-print(add('abc',20))
-print(add('aisu'))
+# print(add('abc',20))
+# print(add('aisu'))
+
+
+
+
+
+def add(name,age):
+    print("name:",name)
+    print("age:",age)
+
+add("ammu",21)    
+add(name="achu",age=21)
