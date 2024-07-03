@@ -77,8 +77,16 @@
 
 
 
-def add(*a):
-    return(a)
+# def add(*a):
+#     return a
 
-print (add("achu","ammu","anu","devu","malu"))
-print (add())
+# print (add("achu","ammu","anu","devu","malu"))
+# print (add())
+
+
+
+
+def add(**a):
+    return a
+
+print(add(name="ammu",age=21,place="ekm",state="kerala",capital="trivandram"))

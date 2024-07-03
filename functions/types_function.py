@@ -35,3 +35,11 @@ def add(*a):
 
 print (add("achu","ammu","anu","devu","malu"))
 print (add())
+
+
+
+
+
+
+def add(*a):
+    return(a)
