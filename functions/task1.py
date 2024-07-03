@@ -31,11 +31,23 @@
 
 
 
-a=20
-def fun4():
-    global b
-    print("global",b)
-    c=30
-    return c,40,50
-c1,d1,f1=fun4()
-print("return",c1,d1,f1)
+# a=20
+# def fun4():
+#     global b
+#     print("global",b)
+#     c=30
+#     return c,40,50
+# c1,d1,f1=fun4()
+# print("return",c1,d1,f1)
+
+
+
+
+
+            #   type of function
+
+def add(a,b,c):
+    return a+b-c
+
+print(add(10,20,30))
+print(add(40,50,60))
