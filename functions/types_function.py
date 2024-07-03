@@ -24,3 +24,14 @@ def add(name,age):
 
 add("ammu",21)    
 add(name="achu",age=21)
+
+
+
+
+
+
+def add(*a):
+    return(a)
+
+print (add("achu","ammu","anu","devu","malu"))
+print (add())
