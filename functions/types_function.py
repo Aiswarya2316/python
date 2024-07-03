@@ -41,5 +41,6 @@ print (add())
 
 
 
-def add(*a):
+def add(**a):
     return(a)
+print(add(name="ammu",age=21,place="ekm",state="kerala",capital="trivandram"))
