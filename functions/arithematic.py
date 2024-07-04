@@ -3,10 +3,10 @@ def add(a,b):
     return a+b
 def sub(a,b):
     return a-b
-def pro(a,b):
-    return a*b
-def div(a,b):
-    return a/b
+pro=lambda a,b:a*b
+
+div=lambda a,b:a/b
+
 def num():
     a=int(input("Enter a number:"))
     b=int(input("Enter a number:"))
