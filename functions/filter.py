@@ -23,4 +23,7 @@ print(list(data))
 
 
 
-de
+def fun1(a):
+    return a[0]=='a'
+data1=filter(fun1,l)
+print(list(data1))
