@@ -9,5 +9,4 @@ print(list(data))
 def fun1(a):
     return a%2==0
 data1=filter(fun1,l)
-print()
 print(list(data1))
