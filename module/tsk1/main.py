@@ -1,4 +1,4 @@
-from reg import *
+from python.module.tsk1.reg import *
 data=[]
 while True:
     print("1.add\n2.display\n3.update\n4.dalete\n5.Exit")
