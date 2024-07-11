@@ -74,30 +74,7 @@
 # print(letters)
 
 
-
-
-
-
-
-# f=open("new.txt","r")
-# l=len(f.readlines())
-# # f.seek(0)
-# word=0
-# # letters=0
-# for i in range(l):
-#     a=f.readline().strip()
-#     for j in a:
-#         if word.isupper():
-#                     print(f"Uppercase word: {word}")
-#         elif word.islower():
-#                     print(f"Lowercase word: {word}")  
-# #     print(a[::-1])
-# #     word+=1
-# # print(word)
-# # print(letters)
-
-
-
+            #cpital
 
 f=open("new.txt","r")
 l=len(f.readlines())
