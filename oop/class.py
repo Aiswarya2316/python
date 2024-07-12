@@ -3,4 +3,4 @@ class synnefo:
         print("python")
     def php():
         print("php")
-           
+class synnefo1:           
