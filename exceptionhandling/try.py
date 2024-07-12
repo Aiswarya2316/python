@@ -1,5 +1,8 @@
-try:
-    a=int(input("enter a number:"))
-    print(a)
-except:
-    print("input a number:")    
+while True:
+    try:
+        a=int(input("enter a number:"))
+        print(a)
+        break
+    except:
+        print("Invalid! ")   
+        
