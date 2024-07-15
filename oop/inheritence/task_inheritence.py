@@ -32,38 +32,74 @@
 
                 #multiple inheritance
 
-class college:
+# class college:
+#     def __init__(s):
+#         print('register')
+#     def python(s):
+#         print("python")
+#     def php(self):
+#         print("php")
+#     def english(self):
+#         print("fine tune") 
+#     def accounting(self):
+#         print("bank accounting") 
+#     def span(self):
+#         print("spanish") 
+
+# class teachers:
+#     def web_dev(self):
+#         print("web developer")
+#     def maths(self):
+#         print("mathematics") 
+
+# class students(teachers,college):
+#     def register(self):
+#         print('std reg')
+
+# anu=college()
+# anu.php()
+
+# achu=teachers()
+# achu.web_dev()
+
+# anju=students()
+# anju.python()                
+
+
+
+
+
+            #multilevel inheritence
+class synnefo:
     def __init__(s):
         print('register')
     def python(s):
+        s.database='mysql'
         print("python")
     def php(self):
-        print("php")
-    def english(self):
-        print("fine tune") 
-    def accounting(self):
-        print("bank accounting") 
-    def span(self):
-        print("spanish") 
+        self.database='mysql'
+        print("php",self.database)
 
-class teachers:
+class novavi(synnefo):
+    def dm(self):
+        print("digital marketing")
     def web_dev(self):
         print("web developer")
-    def maths(self):
-        print("mathematics") 
 
-class students(teachers,college):
-    def register(self):
+class staff(novavi):
+    def reg(self):
         print('std reg')
 
-anu=college()
+anu=synnefo()
 anu.php()
 
-achu=teachers()
-achu.web_dev()
+achu=novavi()
+achu.dm()
+achu.php
 
-anju=students()
-anju.python()                
+anju=staff()
+anju.python()
+anju.reg
 
          
 
