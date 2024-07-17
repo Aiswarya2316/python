@@ -52,4 +52,4 @@ while a > 0:
     result = word + ' ' + result 
     a = a // 10 
 result = result
-print(result)
+print(result) 
