@@ -1,4 +1,4 @@
-rows = 6
+rows=6
 
 for i in range(rows):
     for j in range(i):
