@@ -9,7 +9,7 @@ class sample:
 class demo(sample):
     def display(self):
         print('demo display')
-        super()
+        super().display()
         print('start')
     def d1(self):
         print('demo class d1')
