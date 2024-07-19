@@ -1,4 +1,4 @@
-a="abcde"
+a="welcome"
 import re
 # print(re.sub("w","s",a))
 
@@ -14,6 +14,8 @@ import re
 #     print("nop")            
 
 # print(re.search('[a-m]',a) )  
+
+a="abcde"
 
 print(re.search("a.",a))
 
