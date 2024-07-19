@@ -26,3 +26,13 @@ print(re.search('b.*',a))
 print(re.search('b.+',a))
 
 print(re.search('b.?',a))
+
+print(re.search('[a-z].',a) )  
+
+print(re.search('[a-z].+',a) )
+
+print(re.search('[a-z].*',a) )  
+
+print(re.search('[A-Z].?',a) )  
+
+print(re.search('[a-z]..',a) )  
