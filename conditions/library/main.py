@@ -1,8 +1,8 @@
-from library import Library
+from library import *
 
 def main():
     library = Library()
-    
+    print("enter values")
     while True:
         print("\n1. Register\n2. Login\n3. Add Book\n4. Borrow Book\n5. Return Book\n6. Exit")
         choice = input("Enter your choice: ")
