@@ -4,7 +4,8 @@ app = tkinter.Tk()
 def data():
     # v=v1.get()
     # l2.config(text=v)
-    messagebox.askokcancel("display",v1.get())
+    messagebox.showinfo("display",v1.get())
+    # messagebox.askokcancel("display",v1.get())
 
 app.title("synnefo")
 app.minsize(400,400)
